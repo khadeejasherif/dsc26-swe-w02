@@ -84,5 +84,5 @@ def apply_event(parcel: Parcel, event: EventType) -> Parcel:
     else:
         raise InvalidTransition(f"Invalid transition: invalid event : {event} with state : {parcel.state}  ")
 
-    return updated
+    
   
